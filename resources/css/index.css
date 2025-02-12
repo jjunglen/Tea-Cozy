@@ -2,19 +2,21 @@ html {
     background-color: black;
     color: seashell;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     opacity: 0.9;
     align-items: center;
 }
 
 /* Header */
 .header {
+    height: 69px;
     border-bottom: 1px solid seashell;
     position: fixed;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: black;
 }
 
 .header img {
@@ -40,6 +42,22 @@ html {
 
 
 /* Main Photo */
-.mission {
-    
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.mission-container img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.mission-text {
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    width: 100%;
 }
