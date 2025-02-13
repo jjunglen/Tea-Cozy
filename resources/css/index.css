@@ -66,6 +66,7 @@ html {
 
 /* Tea of the Month */
 .month {
+    padding-top: 50px;
     text-align: center;
 }
 .monthly-container {
@@ -92,4 +93,33 @@ html {
 .box p {
     padding: -5px;
 }
+
+/* Locations */
+
+.cozy-locations {
+    position: relative;
+    background-image: url('./resources/cup.jpg');
+    padding: 50px;
+}
+
+.cozy-locations h2 {
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.location-text {
+    background-color: black;
+    padding: 20px;
+    width: 300px;
+    opacity: 1;
+}
+
+
+
 
