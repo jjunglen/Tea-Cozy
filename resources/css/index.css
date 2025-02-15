@@ -98,19 +98,31 @@ html {
 
 .cozy-locations {
     position: relative;
-    background-image: url('./resources/cup.jpg');
-    padding: 50px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cozy-locations h2 {
-    text-align: center;
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
 }
+
+
 
 .store {
     display: flex;
     justify-content: center;
     gap: 40px;
     text-align: center;
+    position: absolute;
+    
 }
 
 .location-text {
@@ -119,6 +131,29 @@ html {
     width: 300px;
     opacity: 1;
 }
+
+.cozy-locations h3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+.information p {
+    font-size: 15px;
+}
+
+footer .copyright {
+    text-align: left;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
 
 
 
